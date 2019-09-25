@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="inha.SamsungTV"/>
+<fullyQualifiedTypeName name="inha.LgTV"/>
+<fullyQualifiedTypeName name="inha.BeanFactory"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
+<fullyQualifiedTypeName name="java.lang.SafeVarargs"/>
+<fullyQualifiedTypeName name="a.b.c.SonySpeaker"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;w02-001/src/main/java/a.b.c&apos;&#x0D;&#x0A;- Original project: &apos;Test0911&apos;&#x0D;&#x0A;- Destination element: &apos;w02-001/src/main/java/a.b.c&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     inha.TV.java&#x0D;&#x0A;     inha.LgTV.java&#x0D;&#x0A;     inha.BeanFactory.java&#x0D;&#x0A;     inha.SamsungTV.java&#x0D;&#x0A;     inha.TVUser.java" description="Copy compilation units" destination="=w02-001/src\/main\/java&lt;a.b.c" element1="/src&lt;inha{TV.java" element2="/src&lt;inha{LgTV.java" element3="/src&lt;inha{BeanFactory.java" element4="/src&lt;inha{SamsungTV.java" element5="/src&lt;inha{TVUser.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1568205336498" units="5" version="1.0"/>
+</session>
