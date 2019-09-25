@@ -3,8 +3,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="tv" class="a.b.c.SamsungTV" ></bean>
+	<bean id="tv" class="a.b.c.SamsungTV" >
+	<property name="speaker" ref="speaker"></property>
 	
-	<bean id="speaker" class= "a.b.c.SonuSpeaker"></bean>
+	</bean>
+	
+	<bean id="speaker" class= "a.b.c.SonySpeaker"></bean>
 
 </beans>

@@ -1,5 +1,8 @@
 package a.b.c;
 
+import org.springframework.stereotype.Component;
+
+@Component("appleSpeaker")
 public class AppleSpeaker implements Speaker {
 
 	@Override

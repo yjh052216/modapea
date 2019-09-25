@@ -14,6 +14,15 @@ public class SamsungTV implements TV {
 	
 
 
+	public Speaker getSpeaker() {
+		return speaker;
+	}
+
+	public void setSpeaker(Speaker speaker) {
+		this.speaker = speaker;
+	}
+	
+
 	@Override
 	public void powerOn() {
 		// TODO Auto-generated method stub

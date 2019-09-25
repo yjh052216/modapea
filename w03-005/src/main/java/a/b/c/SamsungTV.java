@@ -1,10 +1,14 @@
 package a.b.c;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-@Component("TV")
+@Component("tv")
 public class SamsungTV implements TV {
 	
+	@Autowired
+	@Qualifier("sonySpeaker")
 	private Speaker speaker;
 	
 	public SamsungTV(){

@@ -2,7 +2,7 @@ package a.b.c;
 
 import org.springframework.stereotype.Component;
 
-@Component("speaker")
+@Component("sonySpeaker")
 public class SonySpeaker implements Speaker {
 
 	@Override

@@ -1,5 +1,7 @@
 package a.b.c;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class SamsungTV implements TV {
 	
 	private Speaker speaker;

@@ -1,0 +1,28 @@
+package com.springbook.biz.board.impl;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+
+import com.springbook.biz.board.BoardVO;
+
+
+public class BoardDAO {
+
+	
+	public void insertBoard(BoardVO vo){
+	
+		try{
+			Class.forName("com.mysql.jdbc.Driver");
+			
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localgost/test","root","1234");
+		
+			PreparedStatement stmt = conn.prepareStatement("insert into board (title,write,content) values (?)");
+			stmt.setString(1, getTitle());
+			stmt.setString(2, getWrite());
+			stmt.setString(3, getContent());
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

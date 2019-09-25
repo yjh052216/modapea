@@ -1,0 +1,16 @@
+package com.springbook.biz.board.impl;
+
+import com.springbook.biz.board.BoardVO;
+
+public class BoardDAO {
+
+	
+	public void insertBoard(BoardVO vo){
+	
+		try{
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}
