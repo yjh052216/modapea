@@ -1,0 +1,24 @@
+package com.springbook.biz.board.impl;
+
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+import com.springbook.biz.board.BoardVO;
+
+public class BoardDAO {
+	
+	public void insertBoard(BoardVO vo){
+		
+		try {
+			
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/test","root","1234");
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}	
+
+}

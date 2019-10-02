@@ -1,7 +1,6 @@
 create database TEST;
 use TEST;
 
-
 create table BOARD (
    SEQ int primary key auto_increment,
    TITLE varchar(200),
