@@ -115,6 +115,9 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Spring\Workspace\w07-003"/>
+			<item value="C:\Spring\Workspace\w07-002"/>
+			<item value="C:\Spring\Workspace\w07-001"/>
 			<item value="C:\Spring\Workspace\w05-003"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
