@@ -1,0 +1,54 @@
+package com.springbook.biz.board.impl;
+
+import java.util.List;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.springbook.biz.board.BoardDAO;
+import com.springbook.biz.board.BoardVO;
+
+public class BoardDAOSpring implements BoardDAO {
+	
+	private JdbcTemplate jdbcTemplate;
+
+	public JdbcTemplate getJdbcTemplate() {
+		return jdbcTemplate;
+	}
+
+	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
+
+	@Override
+	public void insertBoard(BoardVO vo) {
+		jdbcTemplate.update("insert into board (title, writer, content) values(?,?,?)",
+				vo.getTitle(),vo.getWiter(),vo.getContent());
+
+	}
+
+	@Override
+	public void updateBoard(BoardVO vo) {
+		jdbcTemplate.update("update board set title = ?, content=? where seq=?",
+				vo.getTitle(),vo.getContent(),vo.getSeq());
+
+	}
+
+	@Override
+	public void deleteBoard(BoardVO vo) {
+		jdbcTemplate.update("delete from board where seq=?", vo.getSeq());
+
+	}
+
+	@Override
+	public BoardVO getBoard(BoardVO vo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List getBoardList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
