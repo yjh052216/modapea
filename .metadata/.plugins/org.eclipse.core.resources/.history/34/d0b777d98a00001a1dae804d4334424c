@@ -1,0 +1,19 @@
+package com.springbook.view.board;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.springbook.biz.board.BoardService;
+import com.springbook.biz.board.BoardVO;
+
+@Controller
+public class BoardController {
+	
+	@Autowired
+	private BoardService boardService;
+	
+	public void insertBoard(BoardVO vo){
+		this.boardService.insertBoard(vo);
+	}
+	
+}

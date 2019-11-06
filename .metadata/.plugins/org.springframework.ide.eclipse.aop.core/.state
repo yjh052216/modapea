@@ -5,6 +5,8 @@
 <aop-project name="w05-002"/>
 <aop-project name="w04-001"/>
 <aop-project name="w07-002"/>
+<aop-project name="w09-002"/>
+<aop-project name="w10-002"/>
 <aop-project name="w03-003"/>
 <aop-project name="w03-001"/>
 <aop-project name="w03-005"/>
@@ -12,4 +14,6 @@
 <aop-project name="w05-003"/>
 <aop-project name="w07-001"/>
 <aop-project name="w07-003"/>
+<aop-project name="w09-001"/>
+<aop-project name="123"/>
 </aop-reference-model>

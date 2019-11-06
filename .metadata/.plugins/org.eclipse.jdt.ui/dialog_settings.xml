@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<item value="true" key="Replace"/>
 	<item value="true" key="Annotations"/>
-	<item value="true" key="Comments"/>
+	<item value="false" key="Comments"/>
 	<item value="false" key="InstanceOf"/>
 	<item value="1" key="org.eclipse.jdt.ui.last.selected.jre.kind2"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
