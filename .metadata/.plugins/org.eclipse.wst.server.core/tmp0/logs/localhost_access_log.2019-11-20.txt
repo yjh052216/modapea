@@ -1,0 +1,4 @@
+127.0.0.1 - - [20/Nov/2019:20:10:50 +0900] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [20/Nov/2019:20:10:51 +0900] "GET /biz/WEB-INF/classes/com/springbook/biz/board/impl/BoardDAOSpring.java HTTP/1.1" 404 996
+0:0:0:0:0:0:0:1 - - [20/Nov/2019:20:10:59 +0900] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [20/Nov/2019:20:11:12 +0900] "GET /index HTTP/1.1" 404 1008

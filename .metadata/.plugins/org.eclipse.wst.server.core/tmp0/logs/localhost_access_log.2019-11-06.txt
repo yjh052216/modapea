@@ -7,3 +7,9 @@
 127.0.0.1 - - [06/Nov/2019:21:19:48 +0900] "GET / HTTP/1.1" 404 998
 0:0:0:0:0:0:0:1 - - [06/Nov/2019:21:19:48 +0900] "GET /biz/insertBoard.jsp HTTP/1.1" 200 498
 0:0:0:0:0:0:0:1 - - [06/Nov/2019:21:19:57 +0900] "GET /biz/insertBoard.do?title=test1111&writer=123&content=431 HTTP/1.1" 200 276
+0:0:0:0:0:0:0:1 - - [06/Nov/2019:21:30:42 +0900] "GET /biz/getBoard.do?seq=1 HTTP/1.1" 500 8177
+0:0:0:0:0:0:0:1 - - [06/Nov/2019:21:33:26 +0900] "GET /biz/getBoard.do?seq=1 HTTP/1.1" 404 1030
+0:0:0:0:0:0:0:1 - - [06/Nov/2019:21:33:37 +0900] "GET /biz/geBoard.do?seq=1 HTTP/1.1" 404 996
+0:0:0:0:0:0:0:1 - - [06/Nov/2019:21:33:42 +0900] "GET /biz/geBoard.do?seq=1 HTTP/1.1" 404 996
+0:0:0:0:0:0:0:1 - - [06/Nov/2019:21:33:54 +0900] "GET /biz/getBoard.do?seq=1 HTTP/1.1" 500 5405
+0:0:0:0:0:0:0:1 - - [06/Nov/2019:21:34:12 +0900] "GET /biz/getBoard.do?seq=1 HTTP/1.1" 200 376
