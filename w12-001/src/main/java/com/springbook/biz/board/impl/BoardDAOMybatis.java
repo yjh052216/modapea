@@ -24,7 +24,7 @@ public class BoardDAOMybatis implements BoardDAO {
 
 	@Override
 	public void updateBoard(BoardVO vo) {
-		// TODO Auto-generated method stub
+		mybatis.update("BoardDAO.updateBoard", vo);
 
 	}
 

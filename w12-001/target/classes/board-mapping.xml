@@ -10,6 +10,11 @@
 		(title, writer, content) 
 		values (#{title}, #{writer}, #{content})
 	</insert>
-
+	
+	<update id="updateBoard" parameterType="board">
+		update board
+		set title= #{title}, content= #{content}
+		where seq= #{seq}
+	</update>
 
 </mapper>
