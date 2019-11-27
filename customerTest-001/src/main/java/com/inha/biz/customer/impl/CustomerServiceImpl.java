@@ -20,4 +20,12 @@ public class CustomerServiceImpl implements CustomerService{
 		
 	}
 
+	@Override
+	public void updateCustomer(CustomerVO vo) {
+
+
+		customerDAO.updateCustomer(vo);
+		
+	}
+
 }

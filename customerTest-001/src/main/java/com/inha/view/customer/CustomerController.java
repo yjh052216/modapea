@@ -13,9 +13,15 @@ public class CustomerController {
 	@Autowired
 	private CustomerService customerService;
 	
-	@RequestMapping("/insertCustomer.do")
+	@RequestMapping("insertCustomer.do")
 	public String insertCustomer(CustomerVO vo){
 		customerService.insertCustomer(vo);
+		return "Success.jsp";
+	}
+	
+	@RequestMapping("updateCustomer.do")
+	public String updateCustomer(CustomerVO vo){
+		customerService.updateCustomer(vo);
 		return "Success.jsp";
 	}
 

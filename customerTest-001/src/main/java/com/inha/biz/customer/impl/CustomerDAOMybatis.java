@@ -15,8 +15,16 @@ public class CustomerDAOMybatis implements CustomerDAO {
 	public void insertCustomer(CustomerVO vo) {
 		
 		
-		mybatis.insert("CustomerDAO.insertCustomer", vo);
+		mybatis.insert("customerDAO.insertCustomer", vo);
 		
+		
+	}
+
+	@Override
+	public void updateCustomer(CustomerVO vo) {
+	
+		
+		mybatis.update("customerDAO.updateCustomer", vo);
 		
 	}
 	

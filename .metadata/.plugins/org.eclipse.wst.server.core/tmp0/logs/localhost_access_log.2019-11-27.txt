@@ -1,0 +1,14 @@
+127.0.0.1 - - [27/Nov/2019:21:12:17 +0900] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [27/Nov/2019:21:12:18 +0900] "GET /c/CustomerInsert.jsp HTTP/1.1" 200 513
+0:0:0:0:0:0:0:1 - - [27/Nov/2019:21:12:30 +0900] "POST /c/insertCustomer.do HTTP/1.1" 500 9978
+127.0.0.1 - - [27/Nov/2019:21:27:27 +0900] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [27/Nov/2019:21:27:27 +0900] "GET /c/CustomerInsert.jsp HTTP/1.1" 200 513
+0:0:0:0:0:0:0:1 - - [27/Nov/2019:21:27:36 +0900] "POST /c/insertCustomer.do HTTP/1.1" 500 9978
+0:0:0:0:0:0:0:1 - - [27/Nov/2019:21:29:16 +0900] "POST /c/insertCustomer.do HTTP/1.1" 500 9978
+127.0.0.1 - - [27/Nov/2019:21:29:36 +0900] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [27/Nov/2019:21:29:36 +0900] "GET /c/CustomerInsert.jsp HTTP/1.1" 200 513
+0:0:0:0:0:0:0:1 - - [27/Nov/2019:21:29:52 +0900] "POST /c/insertCustomer.do HTTP/1.1" 500 9978
+127.0.0.1 - - [27/Nov/2019:21:32:31 +0900] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [27/Nov/2019:21:32:32 +0900] "GET /c/WEB-INF/classes/com/inha/view/customer/CustomerController.java HTTP/1.1" 404 996
+127.0.0.1 - - [27/Nov/2019:21:32:58 +0900] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [27/Nov/2019:21:32:58 +0900] "GET /c/CustomerInsert.jsp HTTP/1.1" 200 513

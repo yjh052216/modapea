@@ -9,4 +9,8 @@
 		VALUES(#{id},#{pw},#{name})
 	</insert>
 
+	<update id="updateCustomer" parameterType="customer">
+		update customer set pw=#{pw}, name=#{name} where id=#{id}
+	</update>
+	
 </mapper>
