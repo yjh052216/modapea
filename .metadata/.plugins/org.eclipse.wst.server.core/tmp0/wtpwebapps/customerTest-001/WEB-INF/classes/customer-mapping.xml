@@ -13,4 +13,12 @@
 		update customer set pw=#{pw}, name=#{name} where id=#{id}
 	</update>
 	
+	<delete id="deleteCustomer" parameterType="customer">
+		delete from customer where id=#{id}
+	</delete>
+	
+	<select id="selectCustomer" resultType="customer">
+		select * from customer where id=#{id}
+	</select>
+	
 </mapper>

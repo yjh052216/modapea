@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="w03-002"/>
 <aop-project name="w03-004"/>
+<aop-project name="w03-002"/>
 <aop-project name="w05-002"/>
 <aop-project name="w04-001"/>
 <aop-project name="w07-002"/>
@@ -11,6 +11,7 @@
 <aop-project name="w03-003"/>
 <aop-project name="w03-001"/>
 <aop-project name="w03-005"/>
+<aop-project name="customerTest-001"/>
 <aop-project name="w05-001"/>
 <aop-project name="w05-003"/>
 <aop-project name="w07-001"/>

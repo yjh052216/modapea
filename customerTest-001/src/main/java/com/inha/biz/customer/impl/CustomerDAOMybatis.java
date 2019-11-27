@@ -27,6 +27,22 @@ public class CustomerDAOMybatis implements CustomerDAO {
 		mybatis.update("customerDAO.updateCustomer", vo);
 		
 	}
+
+	@Override
+	public void deleteCustomer(CustomerVO vo) {
+		
+		
+		mybatis.delete("customerDAO.deleteCustomer", vo);
+		
+	}
+
+	@Override
+	public CustomerVO selectCustomer(CustomerVO vo) {
+		
+		return mybatis.selectOne("customerDAO.selectCustomer", vo);
+		
+	}
+
 	
 	
 
