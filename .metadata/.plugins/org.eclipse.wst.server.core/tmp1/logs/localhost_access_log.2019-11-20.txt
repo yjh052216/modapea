@@ -9,3 +9,4 @@
 0:0:0:0:0:0:0:1 - - [20/Nov/2019:21:16:33 +0900] "POST /biz/insertBoard.do HTTP/1.1" 500 9882
 0:0:0:0:0:0:0:1 - - [20/Nov/2019:21:18:15 +0900] "GET /biz/insertBoard.jsp HTTP/1.1" 200 1020
 0:0:0:0:0:0:0:1 - - [20/Nov/2019:21:18:20 +0900] "POST /biz/insertBoard.do HTTP/1.1" 200 1117
+0:0:0:0:0:0:0:1 - - [20/Nov/2019:21:25:03 +0900] "GET /biz/updateBoard.do?title=000&content=000&seq=10 HTTP/1.1" 200 1117

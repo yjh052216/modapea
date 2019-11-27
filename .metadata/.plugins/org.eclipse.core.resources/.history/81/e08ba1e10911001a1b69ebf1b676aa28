@@ -1,0 +1,18 @@
+package com.inha.biz.customer.impl;
+
+import com.inha.biz.customer.CustomerDAO;
+import com.inha.biz.customer.CustomerVO;
+
+public class CustomerDAOMybatis implements CustomerDAO {
+
+	@Override
+	public void insertCustomer(CustomerVO vo) {
+		
+		
+		
+		
+	}
+	
+	
+
+}

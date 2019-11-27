@@ -1,0 +1,15 @@
+package com.inha.biz.customer.impl;
+
+import com.inha.biz.customer.CustomerService;
+import com.inha.biz.customer.CustomerVO;
+
+public class CustomerServiceImpl implements CustomerService{
+
+	@Override
+	public void insertCustomer(CustomerVO vo) {
+		
+		
+		
+	}
+
+}

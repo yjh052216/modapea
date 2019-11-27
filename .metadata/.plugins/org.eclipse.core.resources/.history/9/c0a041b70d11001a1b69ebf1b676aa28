@@ -1,0 +1,23 @@
+package com.inha.biz.customer.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.inha.biz.customer.CustomerDAO;
+import com.inha.biz.customer.CustomerVO;
+
+public class CustomerDAOMybatis implements CustomerDAO {
+	
+	@Autowired
+	private SqlSessionTemplate mybatis;
+	
+	@Override
+	public void insertCustomer(CustomerVO vo) {
+		
+		
+		
+		
+	}
+	
+	
+
+}
