@@ -8,9 +8,11 @@
 </head>
 <body>
 <form action="insertCustomer.do" method="post">
+
 id : <input type="text" name="id">
 pw : <input type="text" name="pw">
 name : <input type="text" name="name">
+
 
 <input type="submit" value="µÕ·Ï" >
 </form>
