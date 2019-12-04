@@ -23,3 +23,8 @@
 0:0:0:0:0:0:0:1 - - [04/Dec/2019:21:21:32 +0900] "POST /c/insertCustomer.do HTTP/1.1" 200 453
 0:0:0:0:0:0:0:1 - - [04/Dec/2019:21:23:13 +0900] "GET /c/InsertCustomer.jsp HTTP/1.1" 200 470
 0:0:0:0:0:0:0:1 - - [04/Dec/2019:21:23:16 +0900] "POST /c/insertCustomer.do HTTP/1.1" 200 453
+127.0.0.1 - - [04/Dec/2019:21:24:04 +0900] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [04/Dec/2019:21:24:05 +0900] "GET /c/InsertCustomer.jsp HTTP/1.1" 200 470
+0:0:0:0:0:0:0:1 - - [04/Dec/2019:21:24:10 +0900] "POST /c/insertCustomer.do HTTP/1.1" 200 453
+0:0:0:0:0:0:0:1 - - [04/Dec/2019:21:39:28 +0900] "GET /c/InsertCustomer.jsp HTTP/1.1" 200 470
+0:0:0:0:0:0:0:1 - - [04/Dec/2019:21:39:31 +0900] "POST /c/insertCustomer.do HTTP/1.1" 200 453

@@ -40,7 +40,7 @@
 	<bean id="log" class="com.inha.biz.common.LogAdvice">	</bean>
 	
    <aop:config>
-      <aop:pointcut expression="execution(* com.inha.biz.customer.impl.CustomerDAOMybatis..*(..))" id="pointCut"/>
+      <aop:pointcut expression="execution(* com.inha.biz.customer.impl..*(..))" id="pointCut"/>
       <aop:aspect ref="log">
          <aop:after method="loggin" pointcut-ref="pointCut"/>
       </aop:aspect>
