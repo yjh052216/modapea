@@ -1,0 +1,5 @@
+package com.inha.biz.common;
+
+public class LogAdvice {
+
+}

@@ -1,0 +1,9 @@
+package com.inha.biz.common;
+
+public class LogAdvice {
+	public loggin(){
+		System.out.println("============================================");
+		
+	}
+
+}

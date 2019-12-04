@@ -1,0 +1,7 @@
+package com.inha.biz.customer;
+
+public class CustomerDAO {
+	
+	public void insertCustomer(CustomerVO vo);
+
+}
