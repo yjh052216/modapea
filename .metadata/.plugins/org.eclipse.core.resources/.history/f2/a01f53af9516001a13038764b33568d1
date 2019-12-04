@@ -42,7 +42,7 @@
    <aop:config>
       <aop:pointcut expression="execution(* com.inha.biz.customer.impl.CustomerDAOMybatis..*(..))" id="pointCut"/>
       <aop:aspect ref="log">
-         <aop:after method="logging" pointcut-ref="pointCut"/>
+         <aop:after method="loggin" pointcut-ref="pointCut"/>
       </aop:aspect>
    </aop:config>
    
