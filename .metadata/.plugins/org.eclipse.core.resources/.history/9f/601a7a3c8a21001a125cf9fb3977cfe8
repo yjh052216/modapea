@@ -1,0 +1,5 @@
+package com.inha.view.book;
+
+public class BookController {
+
+}

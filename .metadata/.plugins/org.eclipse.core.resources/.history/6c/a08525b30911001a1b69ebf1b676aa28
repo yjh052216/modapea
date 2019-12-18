@@ -1,7 +1,0 @@
-package com.inha.biz.customer.impl;
-
-import com.inha.biz.customer.CustomerDAO;
-
-public class CustomerDAOMybatis implements CustomerDAO {
-
-}

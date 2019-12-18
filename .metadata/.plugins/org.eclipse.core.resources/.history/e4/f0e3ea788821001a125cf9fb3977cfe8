@@ -1,0 +1,14 @@
+package com.inha.biz.book.impl;
+
+import com.inha.biz.book.BookDAO;
+import com.inha.biz.book.BookVO;
+
+public class BookDAOMybatis implements BookDAO {
+
+	@Override
+	public void insertBook(BookVO vo) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

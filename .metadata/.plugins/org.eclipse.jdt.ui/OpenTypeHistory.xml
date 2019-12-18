@@ -8,6 +8,10 @@
 <typeInfo handle="=w07-003/src\/main\/java&lt;com.springbook.biz.user{UserDAO.java[UserDAO" modifiers="513" timestamp="1571230293937"/>
 <typeInfo handle="=w09-001/src\/main\/java&lt;com.springbook.biz.board{BoardDAO.java[BoardDAO" modifiers="513" timestamp="1572436530229"/>
 <typeInfo handle="=w12-001/src\/main\/java&lt;com.springbook.biz.board{BoardDAO.java[BoardDAO" modifiers="513" timestamp="1572436974000"/>
-<typeInfo handle="=customerTest-001/src\/main\/java&lt;com.inha.biz.customer{CustomerService.java[CustomerService" modifiers="513" timestamp="1574853830014"/>
-<typeInfo handle="=customerTest-001/src\/main\/java&lt;com.inha.biz.customer{CustomerDAO.java[CustomerDAO" modifiers="513" timestamp="1574853805485"/>
+<typeInfo handle="=customerTest-001/src\/main\/java&lt;com.inha.biz.customer{CustomerService.java[CustomerService" modifiers="513" timestamp="1574859834280"/>
+<typeInfo handle="=customerTest-001/src\/main\/java&lt;com.inha.biz.customer{CustomerDAO.java[CustomerDAO" modifiers="513" timestamp="1574859823170"/>
+<typeInfo handle="=CustomerTest-002/src\/main\/java&lt;com.inha.biz.customer{CustomerDAO.java[CustomerDAO" modifiers="513" timestamp="1575458162510"/>
+<typeInfo handle="=CustomerTest-002/src\/main\/java&lt;com.inha.biz.customer{CustomerService.java[CustomerService" modifiers="513" timestamp="1575458115426"/>
+<typeInfo handle="=book_test/src\/main\/java&lt;com.inha.biz.book{BookDAO.java[BookDAO" modifiers="513" timestamp="1576667982418"/>
+<typeInfo handle="=book_test/src\/main\/java&lt;com.inha.biz.book{BookService.java[BookService" modifiers="513" timestamp="1576667992105"/>
 </typeInfoHistroy>

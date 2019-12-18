@@ -1,5 +1,6 @@
 use test;
 
+show databases;
 show tables;
 
 create table users(
@@ -22,3 +23,9 @@ NAME VARCHAR(50)
 DESC CUSTOMER;
 
 SELECT * FROM customer;
+
+create table book(
+id varchar(10) primary key,
+name varchar(50),
+writer varchar(50)
+);

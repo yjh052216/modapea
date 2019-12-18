@@ -1,0 +1,9 @@
+package com.inha.biz.book;
+
+public class BookVO {
+	
+	private String id;
+	private String name;
+	private String writer;
+
+}

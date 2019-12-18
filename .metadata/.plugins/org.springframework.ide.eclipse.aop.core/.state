@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="w03-004"/>
 <aop-project name="w03-002"/>
+<aop-project name="w03-004"/>
 <aop-project name="w05-002"/>
 <aop-project name="w04-001"/>
+<aop-project name="CustomerTest-002">
+<aspect-definition advice-class-name="com.inha.biz.common.LogAdvice" advice-method-name="logging" advice-type="AFTER" aspect-end-line-number="45" aspect-name="log" aspect-start-line-number="45" factory-id="org.springframework.ide.eclipse.aop.core.beanAspectDefinitionElementFactory" file="/CustomerTest-002/src/main/webapp/WEB-INF/action-servlet.xml" pointcut-expression="execution(* com.inha.biz.customer.impl.CustomerDAOMybatis..*(..))" proxy-target-class="false">
+<aop-reference advice-type="AFTER" bean="1:BeansModel|2:CustomerTest-002|3:src/main/webapp/WEB-INF/action-servlet.xml|7:beans:8|8:customerDAO:18" bean-file="/CustomerTest-002/src/main/webapp/WEB-INF/action-servlet.xml" bean-start-line="18" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/CustomerTest-002/src/main/webapp/WEB-INF/action-servlet.xml" source="=CustomerTest-002/src\/main\/java&lt;com.inha.biz.common{LogAdvice.java[LogAdvice~logging" source-start-line="4" target="=CustomerTest-002/src\/main\/java&lt;com.inha.biz.customer.impl{CustomerDAOMybatis.java[CustomerDAOMybatis~insertCustomer~QCustomerVO;" target-start-line="15"/>
+</aspect-definition>
+</aop-project>
 <aop-project name="w07-002"/>
 <aop-project name="w09-002"/>
 <aop-project name="w10-002"/>
@@ -14,6 +19,7 @@
 <aop-project name="customerTest-001"/>
 <aop-project name="w05-001"/>
 <aop-project name="w05-003"/>
+<aop-project name="book_test"/>
 <aop-project name="w07-001"/>
 <aop-project name="w07-003"/>
 <aop-project name="w09-001"/>

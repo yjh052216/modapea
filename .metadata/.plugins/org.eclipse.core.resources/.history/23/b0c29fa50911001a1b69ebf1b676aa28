@@ -1,7 +1,0 @@
-package com.inha.biz.customer.impl;
-
-import com.inha.biz.customer.CustomerService;
-
-public class CustomerServiceImpl implements CustomerService{
-
-}

@@ -1,0 +1,22 @@
+package com.inha.view.book;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+
+public class BookController {
+	
+	
+	@Autowired
+	private BookService bookService;
+	
+	@RequestMapping("insertCustomer.do")
+	public String insertCustomer(BookVO vo){
+		
+		bookService.insertCustomer(vo);
+		
+		return "Success.jsp";
+		
+	}
+
+}
